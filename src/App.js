@@ -1,10 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
-import Blog from './blog/Blog';
+import Blog from './blog/Blog.js';
+import { Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <Blog />
+    <Routes>
+      <Route path="/" element={<Blog />} />
+      {/* <Route path="about" element={<About />} />
+      <Route path="methods" element={<Methods />} />
+      <Route path="data" element={<Data />} /> */}
+    </Routes>
     // <div className="App">
     //   <header className="App-header">
     //     <img src={logo} className="App-logo" alt="logo" />

@@ -51,7 +51,7 @@ export default function AppAppBar() {
       <Container maxWidth="lg">
         <StyledToolbar variant="dense" disableGutters>
           <Box sx={{ flexGrow: 1, display: 'flex', alignItems: 'center', px: 0 }}>
-            <Sitemark />
+            {/* <Sitemark /> */}
             <Box sx={{ display: { xs: 'none', md: 'flex' } }}>
               <Button variant="text" color="info" size="small">
                 Web Projects
@@ -111,14 +111,13 @@ export default function AppAppBar() {
                     <CloseRoundedIcon />
                   </IconButton>
                 </Box>
-                <MenuItem>Features</MenuItem>
-                <MenuItem>Testimonials</MenuItem>
-                <MenuItem>Highlights</MenuItem>
-                <MenuItem>Pricing</MenuItem>
-                <MenuItem>FAQ</MenuItem>
-                <MenuItem>Blog</MenuItem>
+                <MenuItem>Web Projects</MenuItem>
+                <MenuItem>Music Teaching</MenuItem>
+                <MenuItem>Food Creations</MenuItem>
+                <MenuItem>Travel Blog</MenuItem>
+                <MenuItem>About</MenuItem>
                 <Divider sx={{ my: 3 }} />
-                <MenuItem>
+                {/* <MenuItem>
                   <Button color="primary" variant="contained" fullWidth>
                     Sign up
                   </Button>
@@ -127,7 +126,7 @@ export default function AppAppBar() {
                   <Button color="primary" variant="outlined" fullWidth>
                     Sign in
                   </Button>
-                </MenuItem>
+                </MenuItem> */}
               </Box>
             </Drawer>
           </Box>

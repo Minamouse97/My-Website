@@ -19,7 +19,7 @@ function Copyright() {
     <Typography variant="body2" sx={{ color: 'text.secondary', mt: 1 }}>
       {'Copyright © '}
       <Link color="text.secondary" href="https://mui.com/">
-        Sitemark
+        Mina Parastaran
       </Link>
       &nbsp;
       {new Date().getFullYear()}
@@ -58,8 +58,8 @@ export default function Footer() {
             }}
           >
             <Box sx={{ width: { xs: '100%', sm: '60%' } }}>
-              <SitemarkIcon />
-              <Typography
+              {/* <SitemarkIcon /> */}
+              {/* <Typography
                 variant="body2"
                 gutterBottom
                 sx={{ fontWeight: 600, mt: 2 }}
@@ -69,7 +69,7 @@ export default function Footer() {
               <Typography variant="body2" sx={{ color: 'text.secondary', mb: 2 }}>
                 Subscribe for weekly updates. No spams ever!
               </Typography>
-              <InputLabel htmlFor="email-newsletter">Email</InputLabel>
+              <InputLabel htmlFor="email-newsletter">Email</InputLabel> */}
               <Stack direction="row" spacing={1} useFlexGap>
                 <TextField
                   id="email-newsletter"
@@ -93,7 +93,7 @@ export default function Footer() {
                   size="small"
                   sx={{ flexShrink: 0 }}
                 >
-                  Subscribe
+                  Contact
                 </Button>
               </Stack>
             </Box>
@@ -106,25 +106,25 @@ export default function Footer() {
             }}
           >
             <Typography variant="body2" sx={{ fontWeight: 'medium' }}>
-              Product
+              Site
             </Typography>
             <Link color="text.secondary" variant="body2" href="#">
-              Features
+              Web Projects
             </Link>
             <Link color="text.secondary" variant="body2" href="#">
-              Testimonials
+              Music Teaching
             </Link>
             <Link color="text.secondary" variant="body2" href="#">
-              Highlights
+              Food Creations
             </Link>
             <Link color="text.secondary" variant="body2" href="#">
-              Pricing
+              Travel Blog
             </Link>
             <Link color="text.secondary" variant="body2" href="#">
-              FAQs
+              About
             </Link>
           </Box>
-          <Box
+          {/* <Box
             sx={{
               display: { xs: 'none', sm: 'flex' },
               flexDirection: 'column',
@@ -143,7 +143,7 @@ export default function Footer() {
             <Link color="text.secondary" variant="body2" href="#">
               Press
             </Link>
-          </Box>
+          </Box> */}
           <Box
             sx={{
               display: { xs: 'none', sm: 'flex' },
@@ -196,13 +196,13 @@ export default function Footer() {
             <IconButton
               color="inherit"
               size="small"
-              href="https://github.com/mui"
+              href="https://github.com/Minamouse97"
               aria-label="GitHub"
               sx={{ alignSelf: 'center' }}
             >
               <FacebookIcon />
             </IconButton>
-            <IconButton
+            {/* <IconButton
               color="inherit"
               size="small"
               href="https://x.com/MaterialUI"
@@ -210,11 +210,11 @@ export default function Footer() {
               sx={{ alignSelf: 'center' }}
             >
               <TwitterIcon />
-            </IconButton>
+            </IconButton> */}
             <IconButton
               color="inherit"
               size="small"
-              href="https://www.linkedin.com/company/mui/"
+              href="https://www.linkedin.com/in/mina-parastaran-710a79107/"
               aria-label="LinkedIn"
               sx={{ alignSelf: 'center' }}
             >

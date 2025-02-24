@@ -206,12 +206,12 @@ export default function MainContent() {
           overflow: 'auto',
         }}
       >
-        <Search />
-        <IconButton size="small" aria-label="RSS feed">
+        {/* <Search /> */}
+        {/* <IconButton size="small" aria-label="RSS feed">
           <RssFeedRoundedIcon />
-        </IconButton>
+        </IconButton> */}
       </Box>
-      <Box
+      {/* <Box
         sx={{
           display: 'flex',
           flexDirection: { xs: 'column-reverse', md: 'row' },
@@ -277,12 +277,12 @@ export default function MainContent() {
             overflow: 'auto',
           }}
         >
-          <Search />
+          {/* <Search />
           <IconButton size="small" aria-label="RSS feed">
             <RssFeedRoundedIcon />
-          </IconButton>
-        </Box>
-      </Box>
+          </IconButton> */}
+        {/* </Box> */}
+      {/* </Box> */}
       <Grid container spacing={2} columns={12}>
         <Grid size={{ xs: 12, md: 6 }}>
           <SyledCard
